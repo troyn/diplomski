@@ -1,0 +1,38 @@
+p {
+text-align: center;
+font-size: 12pt;
+font-family: "Times New Roman";
+}
+
+.odlomak2 {
+font-size: 14pt;
+font-family: "Verdana";
+text-align: left;
+background-color: yellow;
+}
+
+.odlomak3 {
+text-align: justify;
+font-size: 12pt;
+font-family: "Courier";
+}
+
+#odlomak4 {
+text-align: justify;
+font-size: 14pt;
+font-family: "Arial";
+}
+
+#odlomak5 {
+text-align: right;
+font-family: Verdana;
+font-size: 16pt;
+background-color: red;
+}
+
+h1 {
+font-size: 16pt;
+font-family: "Verdana";
+font-style: italic;
+text-align: center;
+}

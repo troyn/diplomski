@@ -1,0 +1,58 @@
+/* LV 2 - ZADATAK 1 */
+p {
+	text-align: center;
+	color: red;
+	font-size: 12pt;
+	font-family: Times New Roman;
+}
+.odlomak2 {
+	text-align: left;
+	font-size: 14pt;
+	font-family: Verdana;
+	background-color: yellow;
+}
+.odlomak3 {
+	text-align: justify;
+	font-size: 12pt;
+	font-family: Courier;
+}
+#odlomak4 {
+	text-align: justify;
+	font-size: 14pt;
+	font-family: Arial;
+}
+#odlomak5 {
+	text-align: right;
+	font-size: 16pt;
+	font-family: Verdana;
+	background-color: red;
+}
+h1 {
+	text-align: center;
+	font-size: 16pt;
+	font-family: Verdana;
+	font-style: italic;
+}
+/* LV 2 - ZADATAK 2 */
+#linkovi ul li {
+	display: inline;
+	border: 2px solid #356842;
+	padding: 5px 20px 5px 20px; /* TOP RIGHT BOTTOM LEFT*/
+	margin: 10px;
+}
+li a {
+	border: 1px solid red;
+	color: #356842;
+	background-color: #19cbe1;
+	text-decoration: none;
+}
+
+#link a:hover {
+	background-color: yellow;
+	border: 1px solid orange;
+}
+#link a:active {
+	color: red;
+	background-color: green;
+	border-color: red;
+}

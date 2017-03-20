@@ -1,0 +1,69 @@
+<html>
+ <head>
+      <title>JavaScript</title>
+ </head>
+ <body>
+   <h1>Jednostavna tvorba objekta</h1>
+   <script type="text/javascript"> 
+        document.bgColor="black";
+		document.fgColor="white";
+     function pas(ime, pasmina, starost) 
+      {
+        this.ime=ime;
+        this.pasmina=pasmina;
+        this.starost=starost;
+      }
+ 
+   var bijeli=new pas("jura","dalmatiner","8");
+   var garavi=new pas("garo", "mješanac",
+                      "nepoznato");
+	var frckavi=new pas("pero", "dogo argentino", "5");
+	var pjegavi=new pas("sinisa", "njemacki ovcar", "10");
+	
+	function macka(ime, boja, starost, spol) 
+      {
+        this.name=name;
+        this.boja=boja;
+        this.starost=starost;
+		this.spol=spol;
+      }
+	  
+	 var petar=new macka("Petar", "crna", "3", "musko");
+	 var ivan=new macka("Ivan", "bijela", "7", "musko"); 
+	 
+	document.write(
+     "Ime prve macke je: " + petar.name
+     + ", boja: " + petar.boja 
+     + ", starost: " + petar.starost
+	 + " i spol: " + petar.spol + "<br>")
+	 
+	 document.write(
+     "Ime prve macke je: " + ivan.name
+     + ", boja: " + ivan.boja 
+     + ", starost: " + ivan.starost
+	 + " i spol: " + ivan.spol + "<br>")
+
+	document.write(
+     "Ime prvog psa je: " + bijeli.ime
+     + ", pasmina: " + bijeli.pasmina 
+     + " i starost: " + bijeli.starost + "<br>") 
+ 
+   document.write(
+     "Ime drugog psa je: " + garavi.ime
+     + ", pasmina: " + garavi.pasmina 
+     + " i starost: " + garavi.starost + "<br>")
+	 
+	document.write(
+     "Ime treceg psa je: " + frckavi.ime
+     + ", pasmina: " + frckavi.pasmina 
+     + " i starost: " + frckavi.starost + "<br>")
+	 
+	 document.write(
+     "Ime cetvrtkog psa je: " + pjegavi.ime
+     + ", pasmina: " + pjegavi.pasmina 
+     + " i starost: " + pjegavi.starost + "<br>")
+   </script>
+   <script type="text/javascript" src="lv5.js">
+   </script>
+ </body>
+</html>

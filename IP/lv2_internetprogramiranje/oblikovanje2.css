@@ -1,0 +1,34 @@
+#linkovi {
+
+margin-left: auto;
+margin-right: auto;
+border: 5px solid #356842;
+display: line;
+
+margin-top: 10px;
+margin-bottom: 10px;
+padding-top: 5px;
+padding-right: 20px;
+padding-bottom: 5px;
+padding-left: 20px;
+}
+li {
+display:inline;
+}
+li a{ 
+color: red; 
+background-color: #19cbe1;
+border: 1px solid red;
+text-decoration: none;
+}
+
+a:hover{
+color: green;
+border-color: green;
+}
+
+a:active{
+color: red;
+background: green;
+border-color: red;
+}

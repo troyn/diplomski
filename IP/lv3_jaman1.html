@@ -1,0 +1,45 @@
+<html>
+ <head>
+	<link rel="stylesheet" type="text/css" href="jaman1.css">
+      <title>Prvi zadatak</title>
+ </head>
+ <body>
+ <textarea id = "jaman" rows= "10" cols ="50"> Text
+ </textarea> <br>
+ <input type="button" value="Moji osobni podaci" onclick="textArea()"> <br>
+ <input type="button" value="Pozdrav" ondblclick="pozdrav()">
+ <input type="button" value="Ispis kolegija" onclick="kolegiji()">
+ 
+<script type="text/javascript">
+
+	
+	
+	function textArea() {
+	document.getElementById("jaman").innerHTML = "Bruno Jaman, Josipe Glembay 36, 31207 Tenja, 1. godina, Procesno račuarstvo";
+	}
+	function pozdrav() {
+	for (i = 1; i <= 15; i++) {
+		window.confirm("Bruno Jaman " + i + ". upozorenje");
+		}
+	}
+	function kolegiji () {
+	var kolegij = new Array (6);
+	//var broj_kolegija;
+	kolegij[0]= "Internet programiranje";
+	kolegij[1]= "RSSV";
+	kolegij[2]= "Meko računarstvo";
+	kolegij[3]= "Vizualizacija podataka";
+	kolegij[4]= "Inteligentni sustavi";
+	kolegij[5]= "Elementi automatike";
+	kolegij[6]= "Mreže računala";
+	kolegij[7]= "Upravljanje procesima";
+	
+	for(var broj_kolegija in kolegij){
+		document.getElementById("jaman"). innerHTML+=("Kolegij broj [" + broj_kolegija);
+		document.getElementById("jaman"). innerHTML+=("]: "+ kolegij[broj_kolegija] + "\n")
+		}
+
+	}
+</script>
+ </body>
+</html>
